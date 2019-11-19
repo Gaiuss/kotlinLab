@@ -12,6 +12,10 @@ buildscript {
         ktlintVersion = '0.33.0'
         gradleVersion = '3.5.2'
         navigationVersion = '2.0.0'
+        viewPagerVersion = '1.0.0-rc01'
+        fragmentVersion = '1.1.0-alpha09'
+        glideVersion = '4.9.0'
+        materialVersion = '1.1.0-alpha09'
     }
     repositories {
         google()
@@ -35,7 +39,6 @@ allprojects {
     repositories {
         google()
         jcenter()
-
     }
 }
 
